@@ -9,12 +9,17 @@ body{
 h1{
 
     color: green;
+    font-size: 56px;
+    font-weight: 50;
+    text-align: center;
+    text-decoration:underline;
 }
 
 
 p {
 
     color: aqua;
+    text-align: center;
 }
 
 body{
@@ -32,7 +37,7 @@ body{
 
 .section-title{
 
-    color:purple
+    color:purple;
 }
 
 .uppercase{
@@ -51,4 +56,36 @@ body{
     color: yellow ;
     font-family: Arial, Helvetica, sans-serif;
     
+}
+
+.anchor{
+
+    text-decoration:none;
+}
+
+.box-mod{
+
+    background-color: blue;
+    height: 100px;   
+    width: 70% ;
+
+
+}
+
+.banner-section{
+    height: 150px;
+    width: 150 px  ;
+    background-color: aquamarine;
+    background-image: url(../img/immagine\ sempre\ di\ prova.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-position: center;
+    
+}
+
+.border{
+
+    border-color: green;
+    border-style: solid;
+    border-width: 3px;
 }
